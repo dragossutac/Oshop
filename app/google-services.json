@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "236325366465",
+    "firebase_url": "https://oshop2-14597.firebaseio.com",
+    "project_id": "oshop2-14597",
+    "storage_bucket": "oshop2-14597.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236325366465:android:b979cce9e19568fe8e0240",
+        "android_client_info": {
+          "package_name": "com.pipirig.getdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236325366465-2d2s2rpjki3ea9h5l2f48sabn32actta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASl8HF46wxzTLgfeOL0mdqIB3tBKG9WCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236325366465-2d2s2rpjki3ea9h5l2f48sabn32actta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

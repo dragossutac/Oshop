@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="418dp"
+        android:contentDescription="@string/button5"
+        app:srcCompat="@drawable/vegetables"
+        tools:srcCompat="@drawable/vegetables" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="208dp"
+        android:layout_toEndOf="@+id/imageButton3"
+        android:layout_toRightOf="@+id/imageButton3"
+        android:contentDescription="@string/button4"
+        app:srcCompat="@drawable/seasonings"
+        tools:srcCompat="@drawable/seasonings" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="209dp"
+        android:contentDescription="@string/button3"
+        app:srcCompat="@drawable/fruit"
+        tools:srcCompat="@drawable/fruit" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toEndOf="@+id/imageButton"
+        android:layout_toRightOf="@+id/imageButton"
+        android:contentDescription="@string/button2"
+        app:srcCompat="@drawable/dairy"
+        tools:srcCompat="@drawable/dairy" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="190dp"
+
+
+        android:layout_height="190dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/button1"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/bread"
+        tools:srcCompat="@drawable/bread" />
+
+</RelativeLayout>
+
